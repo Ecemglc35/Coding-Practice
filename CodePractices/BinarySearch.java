@@ -1,11 +1,16 @@
 package CodePractices;
 
+import java.util.Arrays;
+
 public class BinarySearch {
     public static void main(String[] args) {
         int[] ints = { 1, 2, 3, 4, 7, 9, 11 };
         System.out.println(binarySearch(ints, 9)); // 5
         System.out.println(binarySearch(ints, 8)); // -1
         System.out.println(binarySearch(ints, 1)); // 0
+
+        // with build in library
+        System.out.println(Arrays.binarySearch(ints, 9));
     }
 
     // Array should be sorted
