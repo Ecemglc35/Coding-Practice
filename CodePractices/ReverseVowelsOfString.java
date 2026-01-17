@@ -1,4 +1,6 @@
 public class ReverseVowelsOfString {
+    // Time Complexity -> O(n)
+    // Space complexity ->O(n)
     public String reverseVowels(String s) {
         char[] arr = s.toCharArray();
 
